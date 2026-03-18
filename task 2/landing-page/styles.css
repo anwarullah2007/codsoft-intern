@@ -1,4 +1,4 @@
-/* Reset & Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
     line-height: 1.6;
 }
 
-/* Layout Utilities */
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -77,7 +77,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Header & Navigation */
+
 .header {
     background-color: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -122,7 +122,6 @@ body {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     padding: 160px 0 100px;
     background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
@@ -165,7 +164,7 @@ body {
     position: relative;
 }
 
-/* Abstract Art Box using pure CSS */
+
 .art-box {
     width: 100%;
     max-width: 400px;
@@ -248,7 +247,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Call to Action Section */
 .cta {
     background-color: var(--primary-color);
     padding: 80px 0;
@@ -267,7 +265,7 @@ body {
     opacity: 0.9;
 }
 
-/* Footer Section */
+
 .footer {
     background-color: var(--secondary-color);
     color: #9ca3af;
