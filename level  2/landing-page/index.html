@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Modern Cloud Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importing Poppins Font for a neat, modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container container-flex">
+            <div class="logo">Nexus<span>.</span></div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-flex">
+            <div class="hero-content animate-up">
+                <h1>Innovate your workflow, ignite your growth.</h1>
+                <p>Experience the ultimate platform designed to streamline operations, boost productivity, and scale your business effortlessly.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    <a href="#" class="btn btn-outline">Watch Demo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- A CSS styled graphical placeholder representing the neat design -->
+                <div class="art-box">
+                    <div class="circle"></div>
+                    <div class="dots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners / Businesses Section (Animated Marquee) -->
+    <section class="partners reveal">
+        <div class="container">
+            <p>TRUSTED BY INNOVATIVE BUSINESSES WORLDWIDE</p>
+            <div class="marquee-track">
+                <div class="marquee-container">
+                    <div class="partner-logo">TechNova</div>
+                    <div class="partner-logo">GlobalFinance</div>
+                    <div class="partner-logo">HealthPlus</div>
+                    <div class="partner-logo">RetailCore</div>
+                    <div class="partner-logo">EduSmart</div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="partner-logo">TechNova</div>
+                    <div class="partner-logo">GlobalFinance</div>
+                    <div class="partner-logo">HealthPlus</div>
+                    <div class="partner-logo">RetailCore</div>
+                    <div class="partner-logo">EduSmart</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section (Columns Layout) -->
+    <section class="features reveal" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Nexus?</h2>
+                <p>Everything you need to manage your business in one seamless environment.</p>
+            </div>
+            
+            <div class="features-grid">
+         Solutions for Different Businesses -->
+    <section class="solutions reveal" id="solutions">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tailored for Every Industry</h2>
+                <p>See how Nexus adapts to different business models.</p>
+            </div>
+            <div class="features-grid">
+                <div class="solution-card">
+                    <h3>🛒 E-commerce</h3>
+                    <p>Manage inventory, track shipments, and analyze customer behavior in real-time.</p>
+                </div>
+                <div class="solution-card">
+                    <h3>🏢 Corporate</h3>
+                    <p>Streamline internal processes, automate workflows, and centralize communication.</p>
+                </div>
+                <div class="solution-card">
+                    <h3>🏥 Healthcare</h3>
+                    <p>Secure patient data, schedule appointments, and maintain compliance effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta revealass="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for unparalleled speed, ensuring your team workflow never faces delays.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure by Design</h3>
+                    <p>Enterprise-grade security protocols keep your sensitive data safe and compliant.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Rich Analytics</h3>
+                    <p>Gain actionable insights with our comprehensive and interactive reporting dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container cta-content">
+            <h2>Ready to transform your business?</h2>
+            <p>Join thousands of companies scaling their operations with Nexus.</p>
+            <a href="#" class="btn btn-light">Create Your Account</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+
+    <!-- Scroll Animation Script -->
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 100;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal(); // Trigger on load
+    </script>
+                <h3>Nexus<span>.</span></h3>
+                <p>Building the future of digital productivity, today.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Updates</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Nexus Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
